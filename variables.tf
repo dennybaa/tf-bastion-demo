@@ -73,7 +73,7 @@ variable "security_group_rules" {
 
 variable "ami" {
   type        = string
-  description = "The AMI to use for the target instance. By default uses Ubuntu 20.04"
+  description = "The AMI to use for the target instance. By default uses Ubuntu 22.04"
   default     = ""
 }
 
